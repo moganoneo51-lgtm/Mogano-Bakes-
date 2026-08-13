@@ -1,0 +1,216 @@
+/* =========================================
+   MOGANO BAKES - MAIN STYLESHEET
+   ========================================= */
+
+/* General page styling */
+* {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+    letter-spacing: 0.2px;
+    background-color: #fff8f2;
+    color: #3d2b25;
+}
+
+/* Header */
+header {
+    background-color: #7b3f2f;
+    color: white;
+    padding: 25px 40px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0 0 15px;
+    font-size: 36px;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+/* Navigation */
+nav {
+    margin-top: 10px;
+}
+
+nav a {
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
+    margin: 5px 10px;
+    padding: 8px 12px;
+    border-radius: 5px;
+}
+
+nav a:hover {
+    background-color: #d99a6c;
+    color: #3d2b25;
+}
+
+/* Main content */
+main {
+    width: 90%;
+    max-width: 1100px;
+    margin: 40px auto;
+}
+
+/* Sections */
+section {
+    background-color: white;
+    margin-bottom: 25px;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.08);
+}
+
+section h2 {
+    margin-top: 0;
+    color: #7b3f2f;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+section h3 {
+    color: #9b5c45;
+    font-size: 22px;
+    font-weight: 600;
+    margin-top: 10px;
+}
+
+section p {
+    font-size: 16px;
+    line-height: 1.7;
+}
+
+/* Links inside the main content */
+main a {
+    color: #7b3f2f;
+    font-weight: 600;
+}
+
+main a:hover {
+    color: #d17a45;
+}
+
+/* Forms */
+form {
+    max-width: 700px;
+    margin: 20px auto;
+}
+
+label {
+    display: block;
+    margin-top: 15px;
+    margin-bottom: 6px;
+    font-weight: 600;
+}
+
+input,
+select,
+textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #c9a99a;
+    border-radius: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    background-color: #fffdfb;
+}
+
+textarea {
+    min-height: 140px;
+    resize: vertical;
+}
+
+input:focus,
+select:focus,
+textarea:focus {
+    outline: 2px solid #d99a6c;
+    border-color: #7b3f2f;
+}
+
+/* Buttons */
+button,
+input[type="submit"] {
+    margin-top: 20px;
+    padding: 12px 25px;
+    background-color: #7b3f2f;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+button:hover,
+input[type="submit"]:hover {
+    background-color: #d17a45;
+}
+
+/* Footer */
+footer {
+    background-color: #3d2b25;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 50px;
+}
+
+footer p {
+    margin: 0;
+    font-size: 14px;
+}
+
+/* Images */
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 15px auto;
+    border-radius: 8px;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+
+    header {
+        padding: 20px;
+    }
+
+    header h1 {
+        font-size: 28px;
+    }
+
+    nav a {
+        display: block;
+        margin: 5px 0;
+    }
+
+    main {
+        width: 94%;
+        margin: 25px auto;
+    }
+
+    section {
+        padding: 20px;
+    }
+
+    section h2 {
+        font-size: 25px;
+    }
+
+    section h3 {
+        font-size: 20px;
+    }
+}
