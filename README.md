@@ -13,3 +13,12 @@ The website was tested on desktop and mobile screen sizes. Navigation links, the
 - Added typography, Flexbox layout, visual styling, media queries, relative units, and responsive image support.
 - Tested the website on desktop and mobile screen sizes.
 
+References
+
+Google (n.d.) SEO Starter Guide. Available at: https://developers.google.com/search/docs/fundamentals/seo-starter-guide (Accessed: 28 October 2026).
+
+MDN Web Docs (n.d.) CSS: Cascading Style Sheets. Available at: https://developer.mozilla.org/en-US/docs/Web/CSS (Accessed: 28 October 2026).
+
+MDN Web Docs (n.d.) Responsive design. Available at: https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/CSS_layout/Responsive_Design (Accessed: 28 October 2026).
+
+World Wide Web Consortium (W3C) (n.d.) Web Content Accessibility Guidelines (WCAG). Available at: https://www.w3.org/WAI/standards-guidelines/wcag/ (Accessed: 28 October 2026).
