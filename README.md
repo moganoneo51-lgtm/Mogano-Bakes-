@@ -12,6 +12,14 @@ The website was tested on desktop and mobile screen sizes. Navigation links, the
 - Updated the website with CSS styling and responsive design for Part 2.
 - Added typography, Flexbox layout, visual styling, media queries, relative units, and responsive image support.
 - Tested the website on desktop and mobile screen sizes.
+Part 2 – Responsive Design and Styling
+
+* Added mobile responsive styling using CSS media queries.
+* Added a tablet breakpoint for improved layout on medium-sized screens.
+* Improved responsive image sizing to prevent overflow.
+* Added hover, focus and active states for navigation links, buttons and form fields.
+* Improved the enquiry form layout on smaller screens.
+* Tested the website navigation, enquiry form and responsive styling in the browser.
 
 References
 
