@@ -89,10 +89,27 @@ document.addEventListener("DOMContentLoaded", function () {
     }
 });
 // Cake image lightbox functionality
-function openLightbox() {
-    document.getElementById("cakeLightbox").style.display = "flex";
+function openLightbox(imageSource) {
+    const lightbox = document.getElementById("cakeLightbox");
+    const lightboxImage = lightbox.querySelector("img");
+
+    lightboxImage.src = imageSource;
+    lightbox.style.display = "flex";
 }
 
 function closeLightbox() {
     document.getElementById("cakeLightbox").style.display = "none";
 }
+const cakeLightbox = document.getElementById("cakeLightbox");
+
+cakeLightbox.addEventListener("click", function (event) {
+    if (event.target === cakeLightbox) {
+        closeLightbox();
+    }
+});
+
+document.addEventListener("keydown", function (event) {
+    if (event.key === "Escape") {
+        closeLightbox();
+    }
+});

@@ -30,6 +30,8 @@ Part 2 – Responsive Design and Styling
 - Added a lightbox feature to enlarge the homepage cake image.
 - Added a smooth fade-in animation to the main website content.
 - Tested the website's interactive features and page functionality.
+- Added a responsive bakery image gallery with six product images.
+- Enhanced the gallery lightbox with click-to-enlarge, click-outside-to-close and Escape-key functionality.
 
 References
 

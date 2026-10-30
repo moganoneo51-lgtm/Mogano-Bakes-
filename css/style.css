@@ -465,3 +465,54 @@ main {
     width: 100%;
     border: none;
 }
+/* Bakery image gallery */
+#gallery {
+    padding: 30px 20px;
+    text-align: center;
+}
+
+#gallery h2 {
+    color: #8b5e3c;
+    margin-bottom: 10px;
+}
+
+.gallery-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    max-width: 1100px;
+    margin: 25px auto;
+}
+
+.gallery-item {
+    background-color: #fffaf5;
+    padding: 12px;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.12);
+}
+
+.gallery-item img {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.gallery-item h3 {
+    color: #8b5e3c;
+    margin-top: 12px;
+}
+
+/* Tablet gallery */
+@media (max-width: 1024px) {
+    .gallery-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+/* Mobile gallery */
+@media (max-width: 600px) {
+    .gallery-container {
+        grid-template-columns: 1fr;
+    }
+}
