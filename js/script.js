@@ -89,9 +89,14 @@ document.addEventListener("DOMContentLoaded", function () {
     }
 });
 // Cake image lightbox functionality
+// Cake image lightbox functionality
 function openLightbox(imageSource) {
     const lightbox = document.getElementById("cakeLightbox");
     const lightboxImage = lightbox.querySelector("img");
+
+    if (!imageSource) {
+        imageSource = document.getElementById("cakeLightboxImage").src;
+    }
 
     lightboxImage.src = imageSource;
     lightbox.style.display = "flex";
