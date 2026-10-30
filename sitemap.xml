@@ -1,18 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
     <url>
-        <loc>https://YOUR-WEBSITE-URL/index.html</loc>
+        <loc>https://moganoneo51-lgtm.github.io/Mogano-Bakes-/</loc>
     </url>
+
     <url>
-        <loc>https://YOUR-WEBSITE-URL/about.html</loc>
+        <loc>https://moganoneo51-lgtm.github.io/Mogano-Bakes-/index.html</loc>
     </url>
+
     <url>
-        <loc>https://YOUR-WEBSITE-URL/services.html</loc>
+        <loc>https://moganoneo51-lgtm.github.io/Mogano-Bakes-/about.html</loc>
     </url>
+
     <url>
-        <loc>https://YOUR-WEBSITE-URL/enquiry.html</loc>
+        <loc>https://moganoneo51-lgtm.github.io/Mogano-Bakes-/services.html</loc>
     </url>
+
     <url>
-        <loc>https://YOUR-WEBSITE-URL/contact.html</loc>
+        <loc>https://moganoneo51-lgtm.github.io/Mogano-Bakes-/enquiry.html</loc>
     </url>
+
+    <url>
+        <loc>https://moganoneo51-lgtm.github.io/Mogano-Bakes-/contact.html</loc>
+    </url>
+
 </urlset>
