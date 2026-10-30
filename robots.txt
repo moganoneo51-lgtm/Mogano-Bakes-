@@ -1,2 +1,4 @@
 User-agent: *
 Allow: /
+
+Sitemap: https://moganoneo51-lgtm.github.io/Mogano-Bakes-/sitemap.xml
