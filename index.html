@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Mogano Bakes | Freshly Baked With Love</title>
+<meta name="description" content="Welcome to Mogano Bakes, where we create delicious freshly baked cakes and treats with love. Explore our baked goods and enquire about your next celebration.">
 
 
 ;
@@ -34,7 +35,7 @@
 
     <!-- Main website content -->
 
-    <img src="images/Low-Fidelity Wireframe.jpeg" alt="Mogano Bakes Low-Fidelity Wireframe">
+    
         <section>
             <h2>Freshly Baked With Love</h2>
 
@@ -49,17 +50,35 @@
         <section>
             <h2>Welcome to Mogano Bakes</h2>
             <img
-            src="images/mogano-cake.jpg"
-            srcset="images/mogano-cake.jpg 800w, images/mogano-cake.jpg 1200w"
-            sizes="(max-width: 768px) 100vw, 80vw"
-            alt="Delicious cake from Mogano Bakes"> 
+
+    id="cakeLightboxImage"
+
+    src="images/mogano-cake.jpg"
+
+    srcset="images/mogano-cake.jpg 800w"
+
+    sizes="(max-width: 768px) 100vw, 80vw"
+
+    alt="Delicious cake from Mogano Bakes"
+
+    onclick="openLightbox()"
+
+    style="cursor: pointer;"
+
+>
 
             <p>
                 We provide quality cakes, cupcakes, pastries and customised
                 baked treats designed to make your special moments memorable.
             </p>
         </section>
+<div id="cakeLightbox" class="lightbox">
 
+    <button type="button" class="lightbox-close" onclick="closeLightbox()" aria-label="Close lightbox">&times;</button>
+
+    <img src="images/mogano-cake.jpg" alt="Enlarged Mogano Bakes cake">
+
+</div>
     </main>
 
     <!-- Footer -->

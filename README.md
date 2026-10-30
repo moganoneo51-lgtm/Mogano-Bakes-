@@ -20,6 +20,16 @@ Part 2 – Responsive Design and Styling
 * Added hover, focus and active states for navigation links, buttons and form fields.
 * Improved the enquiry form layout on smaller screens.
 * Tested the website navigation, enquiry form and responsive styling in the browser.
+### Part 3 – Interactive Features, SEO and Functionality
+- Added an interactive FAQ accordion to the Services page.
+- Added a dynamic search feature for services.
+- Improved SEO with page titles, meta descriptions and keywords.
+- Created robots.txt and sitemap.xml files.
+- Added JavaScript validation to the enquiry form.
+- Added contact form functionality to prepare emails using the visitor's email application.
+- Added a lightbox feature to enlarge the homepage cake image.
+- Added a smooth fade-in animation to the main website content.
+- Tested the website's interactive features and page functionality.
 
 References
 

@@ -13,6 +13,33 @@ body {
     font-size: 16px;
     font-weight: 400;
 }
+/* Typography: headings */
+h1,
+h2,
+h3 {
+    color: #8b5e3c;
+    font-family: Arial, sans-serif;
+    line-height: 1.3;
+}
+
+h1 {
+    font-size: 2rem;
+}
+
+h2 {
+    font-size: 1.6rem;
+}
+
+h3 {
+    font-size: 1.3rem;
+}
+
+/* Typography: paragraphs */
+p {
+    font-size: 1rem;
+    line-height: 1.6;
+    margin-bottom: 1rem;
+}
 
 /* ===== HEADER ===== */
 
@@ -308,4 +335,114 @@ input:focus,
 select:focus,
 textarea:focus {
     border-color: #8b5e3c;
+}
+/* Main content layout */
+main {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px 0;
+    box-sizing: border-box;
+}
+
+/* Section spacing */
+section {
+    margin-bottom: 30px;
+}
+
+/* Consistent box sizing */
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+/* Navigation hover and focus effects */
+nav a {
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+nav a:hover,
+nav a:focus {
+    background-color: #8b5e3c;
+    color: #ffffff;
+    text-decoration: underline;
+}
+/* Part 3: FAQ accordion styling */
+#faq {
+    max-width: 800px;
+    margin: 30px auto;
+}
+
+.faq-item {
+    margin-bottom: 12px;
+    border: 1px solid #cbb8a5;
+    border-radius: 6px;
+    overflow: hidden;
+}
+
+.faq-question {
+    width: 100%;
+    text-align: left;
+    padding: 14px;
+    background-color: #8b5e3c;
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+    font: inherit;
+}
+
+.faq-answer {
+    display: none;
+    padding: 12px 14px;
+    background-color: #fffaf5;
+}
+
+.faq-answer.show {
+    display: block;
+}
+/* Part 3: Cake image lightbox */
+.lightbox {
+    display: none;
+    position: fixed;
+    z-index: 9999;
+    inset: 0;
+    background-color: rgba(0, 0, 0, 0.9);
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.lightbox img {
+    max-width: 90%;
+    max-height: 85vh;
+    object-fit: contain;
+    border-radius: 8px;
+}
+
+.lightbox-close {
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    background: transparent;
+    color: white;
+    border: none;
+    font-size: 40px;
+    cursor: pointer;
+}
+/* Part 3: Smooth fade-in animation */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(15px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Animate main page content */
+main {
+    animation: fadeIn 0.8s ease-in-out;
 }
